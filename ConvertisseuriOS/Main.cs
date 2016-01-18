@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace ConvertisseuriPhone
+namespace ConvertisseuriOS
 {
     public class Application
     {
