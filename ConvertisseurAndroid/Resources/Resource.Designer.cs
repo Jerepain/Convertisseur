@@ -49,6 +49,9 @@ namespace ConvertisseurAndroid
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int monoandroidsplash = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -62,17 +65,14 @@ namespace ConvertisseurAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int Input = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int Convert = 2131099649;
 			
-			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Input = 2131099648;
 			
-			// aapt resource value: 0x7f050002
-			public const int Result = 2131034114;
-			
-			// aapt resource value: 0x7f050003
-			public const int button1 = 2131034115;
+			// aapt resource value: 0x7f060002
+			public const int Result = 2131099650;
 			
 			static Id()
 			{
@@ -115,6 +115,22 @@ namespace ConvertisseurAndroid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int Mono_Android_Theme_Splash = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

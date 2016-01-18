@@ -16,9 +16,11 @@ namespace ConvertisseurAndroid
             // Set our view from the "main" layout resource
             this.SetContentView(Resource.Layout.Main);
 
-            var button = this.FindViewById<Button>(Resource.Id.MyButton);
-
-            button.Click += delegate { button.Text = $"{this.count++} clicks!"; };
+            var convert = this.FindViewById<Button>(Resource.Id.Convert);
+            var result = this.FindViewById<TextView>(Resource.Id.Result);
+            var input = this.FindViewById<TextView>(Resource.Id.Input);
+            
+            convert.Click += delegate { result.Text = (int.Parse(input.Text) * 3).ToString(); };
         }
     }
 }

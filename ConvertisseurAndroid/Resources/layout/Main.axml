@@ -3,18 +3,25 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <Button
+<!--<Button
         android:id="@+id/MyButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Hello" />
-    <TextBox
+        android:text="@string/Hello" />-->
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/Input" />
-    <Label
-        android:id="@+id/Result" />
     <Button
-        android:text="Button"
+        android:text="Convert"
         android:layout_width="match_parent"
         android:layout_height="62.0dp"
-        android:id="@+id/button1" />
+        android:id="@+id/Convert" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Result" />
 </LinearLayout>
